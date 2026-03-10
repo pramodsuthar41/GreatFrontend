@@ -1,4 +1,3 @@
-import "./App.css";
 import profileImg from "./assets/profile.png";
 
 function Card() {
