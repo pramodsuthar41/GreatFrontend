@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> df4c6629a0d9c85a04bc6fa8c67e6c8936b40760
 import profileImg from "./assets/profile.png";
 
 function Card() {
