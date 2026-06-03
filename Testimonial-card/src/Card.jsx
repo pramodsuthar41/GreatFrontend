@@ -1,11 +1,11 @@
-import "./App.css";
+
 import profileImg from "./assets/profile.png";
 
 function Card() {
   return (
     <>
       <div className="flex items-center justify-center bg-[#d2d6db] w-full p-4 min-h-screen">
-        <div className=" bg-white p-6 flex flex-col items-center gap-6 w-full border border-transparent h-auto rounded-xs sm:w-[80%] md:w-[60%] lg:w-[40%] xl:w-[30%]">
+        <div className=" bg-white p-6 flex flex-col items-center gap-6 w-full border border-transparent h-auto rounded-xl sm:w-[80%] md:w-[60%] lg:w-[40%] xl:w-[30%]">
           <div className="profile-name flex items-center gap-5 w-full">
             <img className="w-[15%]" src={profileImg} alt="profile-img" />
             <div className="profile-name">
@@ -22,7 +22,7 @@ function Card() {
         </div>
         </div>
       </div>
-    </>
+    </> 
   );
 }
 
